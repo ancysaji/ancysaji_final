@@ -12,7 +12,7 @@ except socket.gaierror:
 
 @app.route('/')
 def hello_cloud():
-  return "Hello from Ancy Saji ECS Container!"
+  return "Hello from Saji ECS Container!"
   
 @app.route('/host')
 def host_name():
