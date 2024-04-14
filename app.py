@@ -12,7 +12,7 @@ except socket.gaierror:
 
 @app.route('/')
 def hello_cloud():
-  return "Welcome to Saji Final Test API Server!"
+  return "Hello from Saji ECS Container!"
   
 @app.route('/host')
 def host_name():
